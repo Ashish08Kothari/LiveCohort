@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 70px;
+    width: 100%;
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header h1{
+    color: white;
+}
+
+#nav{
+    height: 30px;
+    width: 100%;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 2px dotted black;
+}
+
+#nav h3{
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 20%;
+    background-color: #EBEBEB;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#left h6{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    border-bottom: 1px dotted black;
+}
+
+#right{
+    padding-top: 30px;
+    padding-left: 15px;
+    width: 80%;
+}
+
+#images{
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.photo{
+    height: 90%;
+    width: 25%;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#photo1{
+    background-image: url(https://images.unsplash.com/photo-1670404161056-5f160757fac3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTc1fHxjb2ZmZWUlMjBjb2xvdWUlMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D);
+}
+
+#photo2{
+    background-image: url(https://images.unsplash.com/photo-1582869423308-23ea4667a511?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE2fHxjb2ZmZWUlMjBjb2xvdWUlMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D);
+}
+
+#photo3{
+
+    background-image: url(https://images.unsplash.com/photo-1557130696-82c95909fe08?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzIyfHxjb2ZmZWUlMjBjb2xvdWUlMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D);
+}
+
+p{
+    margin-top: 10px;
+}
+
+#right h2{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+ul{
+    margin-left: 50px;
+}
+
+#footer{
+    height: 60px;
+    width: 100%;
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer h5{
+    color: white;
+    font-size: 15px;
+
+}
